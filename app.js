@@ -53,8 +53,11 @@ angular.module('Belajar-AngularJS', [])
     };
 
     $scope.hapusBarang = function(barang) {
-      $scope.index = $scope.dataBarang.indexOf(barang);
-      $scope.dataBarang.splice($scope.index, 1);
+      var result = confirm('Anda ingin menghapus data barang ?');
+      if (result) {
+        $scope.index = $scope.dataBarang.indexOf(barang);
+        $scope.dataBarang.splice($scope.index, 1);
+      }
     }
 
   }]);
