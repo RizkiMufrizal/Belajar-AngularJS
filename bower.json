@@ -1,12 +1,12 @@
 {
   "name": "Belajar-AngularJS",
   "authors": [
-    "Rizki Mufrizal <mufrizalrizki@gmail.com>"
+    "RizkiMufrizal <mufrizalrizki@gmail.com>"
   ],
   "description": "belajar angular js",
   "main": "index.html",
   "license": "MIT",
-  "homepage": "https://github.com/RizkiMufrizal/Belajar-AngularJS.git",
+  "homepage": "",
   "private": true,
   "ignore": [
     "**/.*",
@@ -16,7 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.5.3",
-    "bootstrap": "^3.3.6"
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.5"
   }
 }
